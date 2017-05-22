@@ -17,7 +17,7 @@
     <druid.version>1.0.26</druid.version>
     <mysql.driver.version>6.0.6</mysql.driver.version>
     <!-- tools version setting -->
-    <slf4j.version>1.8.10</slf4j.version>
+    <slf4j.version>1.7.2</slf4j.version>
     <jackson.version>2.2.3</jackson.version>
     <aspectj.version>1.8.10</aspectj.version>
   </properties>
@@ -138,16 +138,11 @@
     </dependency>
 
     <!--slf4j-->
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>${slf4j.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>${slf4j.version}</version>
-    </dependency>
+      <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+          <version>${slf4j.version}</version>
+      </dependency>
 
     <!--druid-->
     <dependency>
