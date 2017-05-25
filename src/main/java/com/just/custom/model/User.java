@@ -1,4 +1,4 @@
-package com.custom.model;
+package com.just.custom.model;
 
 /**
  * Created by Admin on 2017/5/22.
